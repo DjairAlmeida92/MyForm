@@ -1,0 +1,82 @@
+body{
+margin: 0;
+width: 100vw;
+height: 100vh;
+background: rgb(124, 245, 144);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.card-login > h1 {
+color: white;
+font-size: 2.5rem;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-login {
+    width: 20vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(83, 203, 133);
+    padding: 20px 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgb(59, 245, 59);
+}
+
+.text-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center; 
+    margin: 15px;   
+}
+
+.text-field > input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 17px;
+    font-size: 11pt;
+    box-sizing: border-box;
+}
+
+.text-field > input::placeholder {
+    color: black;
+    font-size: 0.9rem;
+}
+
+.text-field > label {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 22px;
+  }
+
+  .btn-login {
+    width: 7vw;
+    padding: 12px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+   background: rgb(62, 246, 93);
+   color: black;
+  }
+
+  .card-login > h1::after {
+    content: '';
+    display: block;
+    width: 45px;
+    height: 5px;
+    border-radius: 8px;
+    background: white;
+    margin-top: -2%;
+  }
